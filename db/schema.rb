@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(:version => 20110910105831) do
 
   create_table "pairings", :force => true do |t|
     t.integer  "EmpId"
+    t.integer "no_of_times"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
