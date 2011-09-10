@@ -1,0 +1,14 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent; }
+ol, ul{list-style:none}
+
+body, h1, h2, h3, h4{font-size-adjust: none; font-stretch: normal; font-style: normal; font-variant: normal; font-weight: normal;}
+
+body{background-color: yellow;}
+.context_header{ height: 25px; background-color: #000;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.28, rgb(36,36,36)),
+    color-stop(0.78, rgb(0,0,0))
+    );}
