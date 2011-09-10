@@ -1,0 +1,6 @@
+BEGIN TRANSACTION;
+INSERT INTO "emp" VALUES('Kanchan');
+INSERT INTO "emp" VALUES('Megha');
+INSERT INTO "emp" VALUES('Piyush');
+INSERT INTO "emp" VALUES('Pooja');
+COMMIT;

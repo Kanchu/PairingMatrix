@@ -2,5 +2,15 @@
 
 %h1
   Welcome to mDN! Project Team Page
-  -@nos.each do |t|
-    =@nos.EmpId
+  %nbsp
+  %nbsp
+  %nbsp
+  %p
+  %h3
+    Emp Id
+  %form{:id =>'abc'}
+    %input{:type => "text", :name => "Emp Id", :id => "Emp_Id"}
+    %input{:type =>'submit', :name =>'submit_button', :value =>'Find EmpId'}
+
+  -@nos.each do |c|
+    = link_to c.EmpName {:action => 'show',:id => c.id}

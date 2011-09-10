@@ -1,15 +1,9 @@
 class DnController < ApplicationController
 
   def index
-
+    @nos = Emp.find(params[:Emp_Name])
   end
 
-  def inc
 
-  end
-
-  def dec
-
-  end
 
 end
