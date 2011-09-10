@@ -2,8 +2,8 @@ Sample::Application.routes.draw do
 
   root :to => "home#index"
 
-  match "dn" => "dn#dn", :as => :dn
-
+  match "dn" => "dn#index", :as => :dn
+  match "abc" => "dn#dn1"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

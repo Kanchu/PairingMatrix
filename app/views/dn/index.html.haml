@@ -1,0 +1,24 @@
+-@active_nav= 'dn'
+
+%h1
+  Welcome to mDN! Project Team Page
+  %br
+  %br
+  %br
+  %p
+  %h3
+    Emp Id 1
+  %form{:id =>'abc', :action => dn_path}
+    %input{:type => "text", :name => "Emp Id1", :id => "Emp_Id1"}
+    %br
+    %h3
+      Emp Id 2
+    %input{:type => "text", :name => "Emp Id2", :id => "Emp_Id2"}
+    %br
+    %h3
+      Pairing
+    %input{:type => "text", :name => "pair", :id => "pair", :value => @nos}
+    %br
+
+    %input{:type =>'submit', :name =>'submit_button', :value =>'Find EmpId'}
+
