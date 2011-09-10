@@ -2,6 +2,17 @@
 
 one:
   EmpId: 1
+  no_of_times: 1
 
 two:
-  EmpId: 1
+  EmpId: 2
+  no_of_times: 2
+
+
+three:
+  EmpId: 3
+  no_of_times: 2
+
+four:
+  EmpId: 4
+  no_of_times: 2
