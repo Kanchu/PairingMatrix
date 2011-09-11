@@ -1,7 +1,7 @@
 Feature: go to home page
   In order to view pairing matrix
     As a user
-    I want to be able to visit the pairing matrix page from home page
+    I want to be able to see links to visit the pairing matrix page from home page
 
 Scenario: view home page
   Given I am on the home page
