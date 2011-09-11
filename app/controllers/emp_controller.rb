@@ -1,2 +1,4 @@
 class EmpController < ApplicationController
+
+
 end

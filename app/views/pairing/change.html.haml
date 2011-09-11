@@ -1,0 +1,16 @@
+%form{:action => save_path}
+  %h3
+    EmpId1
+  %input{:type =>'number', :name =>'emp1',:value=> params[:emp1]}
+  %h3
+    EmpId2
+  %input{:type =>'number', :name =>'emp2',:value=> params[:emp2]}
+  %br
+  %h3
+    No of time Pairing
+
+  %input{:type =>'number', :name =>'not', :value=> @num,:disabled => false}
+
+  %br
+  %input{:type =>'submit', :name =>'save', :value => "Save"}
+  %input{:type =>'submit', :name =>'cancel', :value => "Cancel"}

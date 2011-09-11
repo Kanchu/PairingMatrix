@@ -2,10 +2,12 @@ Sample::Application.routes.draw do
 
   root :to => "home#index"
 
-  match "dn" => "dn#index", :as => :dn
-  #match "pairing_matrix" => "dn#list", :as => :pairing_matrix
-  match "pairing_matrix" => "dn#pairing_matrix", :as => :pairing_matrix
-  match "pairing_matrix" => "dn#find", :as => :pairing_matrix
+  #match "pairing_matrix" => "pairing_matrix#index", :as => :pairing_matrix
+
+  match "pairing_matrix" => "pairing_matrix#pairing_matrix", :as => :pairing_matrix
+  match "change" => "pairing#change", :as => :change
+  match "pairing" => "pairing#index", :as => :pairing
+  match "save" => "pairing#save", :as=> :save
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

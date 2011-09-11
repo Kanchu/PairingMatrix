@@ -1,4 +1,4 @@
-class DnController < ApplicationController
+class PairingMatrixController < ApplicationController
 
   def index
 

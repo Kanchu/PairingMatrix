@@ -3,7 +3,20 @@
 %head
   %title PAIRING MATRIX
 
+
 %body>
 
-= yield
+  %h1 Welcome to TWU 23 PAIRING MATRIX
+
+  %nav.top
+  %ul
+    %li
+      = link_to "HOME", root_path
+
+    %li
+      = link_to "Pairing Matrix", pairing_matrix_path
+    %li
+      = link_to "Edit Pairing Matrix", pairing_path
+
+      = yield
 

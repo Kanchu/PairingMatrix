@@ -6,3 +6,9 @@ Feature: On the Pairing Matrix Page
 Scenario: See pairing matrix table
   Given I am on the pairing_matrix page
   Then I should see the pairing matrix
+
+@wip
+Scenario: See link to home page
+  Given I am on the pairing matrix page
+  Then  I should see a link to the home page
+

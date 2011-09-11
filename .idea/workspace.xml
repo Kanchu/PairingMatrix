@@ -2,11 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c1e7a6-4014-46db-88ab-7a0c7e4910e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/pairing_matrix.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/pairing_matrix.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pairing/change.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pairing/index.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pairing/save.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/Edit_pairing.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/edit_pairing_steps.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/generic_steps.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/pairing_matrix_steps.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/Controllers/pairing_matrix_controller_spec.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/dn/index.html.haml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/step_definitions/pairing_matrix.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/Controllers/dn_controller_spec.rb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/controllers/dn_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pairing_matrix_controller.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/dn/pairing_matrix.html.haml" afterPath="$PROJECT_DIR$/app/views/pairing_matrix/pairing_matrix.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sample.iml" afterPath="$PROJECT_DIR$/.idea/sample.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/emp_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/emp_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pairing_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pairing_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.haml" afterPath="$PROJECT_DIR$/app/views/home/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/homepage.feature" afterPath="$PROJECT_DIR$/features/homepage.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/pairing_matrix.feature" afterPath="$PROJECT_DIR$/features/pairing_matrix.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/homepage_step.rb" afterPath="$PROJECT_DIR$/features/step_definitions/homepage_step.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/web_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/web_steps.rb" />
     </list>
     <ignored path="sample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,64 +48,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web_steps.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/web_steps.rb">
+      <file leaf-file-name="edit_pairing_steps.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/edit_pairing_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="0" selection-start="2624" selection-end="2624" vertical-scroll-proportion="0.0">
+            <state line="11" column="79" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pairing_matrix.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/pairing_matrix.feature">
+      <file leaf-file-name="Edit_pairing.feature" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/Edit_pairing.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="38" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.30837005">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
+      <file leaf-file-name="change.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pairing/change.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="41" selection-start="220" selection-end="220" vertical-scroll-proportion="0.30837005">
+            <state line="6" column="24" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pairing_matrix.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/pairing_matrix.rb">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pairing/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="50" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+            <state line="6" column="24" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="save.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pairing/save.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pairing_matrix.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/dn/pairing_matrix.html.haml">
+        <entry file="file://$PROJECT_DIR$/app/views/pairing_matrix/pairing_matrix.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homepage.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/homepage.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="8" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homepage_step.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/homepage_step.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+            <state line="10" column="92" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,22 +116,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/stylesheets/site.css" />
-        <option value="$PROJECT_DIR$/app/views/dn/list.html.haml" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/dn/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/dn/dn1.html.haml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/pairing_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/dn_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/dn.rb" />
-        <option value="$PROJECT_DIR$/spec/Controllers/dn_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.haml" />
         <option value="$PROJECT_DIR$/features/step_definitions/homepage_step.rb" />
         <option value="$PROJECT_DIR$/features/homepage.feature" />
-        <option value="$PROJECT_DIR$/features/pairing_matrix.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/web_steps.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/generic_steps.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/pairing_matrix.rb" />
+        <option value="$PROJECT_DIR$/features/pairing_matrix.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/edit_pairing.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/emp_controller.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/edit_pairing_steps.rb" />
+        <option value="$PROJECT_DIR$/app/views/pairing/save.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/pairing_matrix_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/pairing_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/pairing/change.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/pairing/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/pairing_matrix/pairing_matrix.html.haml" />
+        <option value="$PROJECT_DIR$/features/Edit_pairing.feature" />
       </list>
     </option>
   </component>
@@ -197,6 +207,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="step_definitions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -218,26 +246,8 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="pairing_matrix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,7 +269,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dn" />
+              <option name="myItemId" value="pairing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -638,114 +666,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/tasks/cucumber.rake">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/pairing_matrix_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/cucumber.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pair.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/dn_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/Controllers/dn_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="43" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/matrix.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="7" selection-start="0" selection-end="37" vertical-scroll-proportion="0.02202643">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/emp.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dn/pairing_matrix.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/homepage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+        <state line="3" column="18" selection-start="93" selection-end="93" vertical-scroll-proportion="0.06401138">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/homepage_step.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+        <state line="2" column="5" selection-start="0" selection-end="83" vertical-scroll-proportion="0.042674255">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/web_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="2624" selection-end="2624" vertical-scroll-proportion="0.0">
+        <state line="212" column="0" selection-start="5706" selection-end="5706" vertical-scroll-proportion="0.88335705">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/pairing_matrix.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/generic_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+        <state line="1" column="21" selection-start="22" selection-end="22" vertical-scroll-proportion="0.021337127">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dn/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/features/homepage.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="0" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/pairing_matrix.feature">
+    <entry file="file://$PROJECT_DIR$/app/controllers/emp_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+        <state line="4" column="72" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="220" selection-end="220" vertical-scroll-proportion="0.30837005">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pairing_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="44" selection-start="185" selection-end="185" vertical-scroll-proportion="0.17069702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pairing_matrix_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="184" selection-end="184" vertical-scroll-proportion="0.2347084">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pairing/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pairing/save.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pairing_matrix/pairing_matrix.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="92" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pairing/change.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/edit_pairing_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="79" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Edit_pairing.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.30837005">
           <folding />
         </state>
       </provider>

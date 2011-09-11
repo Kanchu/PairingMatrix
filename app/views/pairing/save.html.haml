@@ -1,0 +1,24 @@
+%h3
+
+  EmpId1
+%input{:type =>'text', :name =>'empname1', :value => @empname1, :disabled => true}
+%input{:type =>'number', :name =>'emp1', :value =>params[:emp1] , :disabled => true}
+%h3
+  EmpId2
+%input{:type =>'text', :name =>'empname2', :value =>@empname2, :disabled => true}
+%input{:type =>'number', :name =>'emp2', :value =>params[:emp2],:disabled => true}
+%h3
+  No of times Pairing
+%input{:type =>'number', :name =>'not', :value => @no,:disabled => true}
+
+
+
+
+%h3
+-if params[:save]
+  Changes are saved to the Database
+
+-else
+  Changes are not saved to the Database
+
+=link_to "Pairing Matrix", pairing_matrix_path
