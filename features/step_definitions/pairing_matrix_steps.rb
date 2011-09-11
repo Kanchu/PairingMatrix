@@ -5,3 +5,4 @@ end
 Then /^I should see a link to the home page$/ do |arg1|
   click_link("HOME")
 end
+

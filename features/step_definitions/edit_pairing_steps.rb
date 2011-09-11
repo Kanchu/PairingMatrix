@@ -19,3 +19,7 @@ end
 Then /^I can see the option to Cancel$/ do
   page.should have_xpath("//input[@value = 'Cancel']")
 end
+
+Given /^I am viewing page showing changes$/ do
+  cisit path_to("change")
+end
