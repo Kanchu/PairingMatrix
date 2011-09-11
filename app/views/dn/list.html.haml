@@ -1,15 +1,18 @@
 
-
+- i = 0
 %table
   %th
     Pairing Matrix
   %tr
-  %td
-  -@emp.each do |c|
-    %td
-      = c.EmpName
-  %tr
-  %td
-  -@emp.each do |c|
-    %td
-      = c.EmpName
+    -@emp.each do |c|
+      %tr
+        %td
+          = c.EmpName
+    %tr
+      -@emp.each do |c|
+      %td
+        = c.EmpName
+      -for j in (0..4)
+        %td
+          =@arr[i]
+          -i=i+1
