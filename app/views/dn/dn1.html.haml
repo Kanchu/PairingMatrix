@@ -1,2 +1,21 @@
 Pairing
-%input{:type => "number", :name => "pair", :value => @nos}
+%input{:type => "text", :name => "pair", :value => @nos}
+
+%h3
+  Employee Name
+  - i = 0
+  %br
+    %div{:align=> "center"}
+      -@emp.each do |event|
+        -@ar << @emp.id
+        %input{:type => "text", :name => "EmpId1", :value => event.EmpName}
+
+  %br
+    %div{:align => "left"}
+      -@emp.each do |event|
+        %li
+          %input{:type => "text", :name => "EmpId2", :value => event.EmpName}
+            -for j in (0..@ar.length-1)
+              %hl
+                %input{:type => "text", :name => "abc", :value => @arr[i]}
+                -i = i+1

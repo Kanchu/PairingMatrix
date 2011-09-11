@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  EmpId1: 1
+  EmpId2: 1
+  no_of_time: 1
+
+two:
+  EmpId1: 1
+  EmpId2: 1
+  no_of_time: 1
