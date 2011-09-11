@@ -1,0 +1,20 @@
+%h3
+  %strong
+    Pairing Matrix
+%h3
+  Employee Name
+  - i = 0
+  %br
+    %div{:align=> "center"}
+      -@emp.each do |e|
+        -@ar << @emp.id
+        %textarea{:disabled => true}=raw e.EmpName
+  %br
+    %div{:align => "left"}
+      -@emp.each do |e|
+        %li
+          %textarea{:disabled => true}=raw e.EmpName
+          -for j in (0..@ar.length-1)
+            %hl
+              %textarea{:disabled => true}=@arr[i]
+              -i = i+1

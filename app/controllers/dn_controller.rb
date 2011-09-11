@@ -4,8 +4,7 @@ class DnController < ApplicationController
 
   end
 
-  def dn1
-
+  def pairing_matrix
     @arr1 = Array.new
     @arr2 = Array.new
     @arr = Array.new
@@ -22,4 +21,5 @@ class DnController < ApplicationController
      end
     end
   end
+
 end
