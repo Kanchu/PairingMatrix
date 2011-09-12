@@ -15,10 +15,12 @@
 
 
 %h3
--if params[:save]
-  Changes are saved to the Database
+-if @e1!=@e2
+  -if params[:save]
+    Changes are saved to the Database
 
+  -else
+    Changes are not saved to the Database
 -else
-  Changes are not saved to the Database
-
+  Both The Employees are same.. No changes made in the Database
 =link_to "Pairing Matrix", pairing_matrix_path

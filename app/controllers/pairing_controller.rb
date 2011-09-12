@@ -5,6 +5,10 @@ class PairingController < ApplicationController
   end
 
   def change
+    @e1 = params[:emp1].to_i
+    @e2 = params[:emp2].to_i
+    @empname1 = Emp.find_by_id(@e1).EmpName
+    @empname2 = Emp.find_by_id(@e2).EmpName
     @num = Matrix.find_by_EmpId1_and_EmpId2(params[:emp1],params[:emp2]).no_of_time
     if params[:emp1]!=params[:emp2]
       if params[:inc]
