@@ -21,3 +21,7 @@ Scenario: Navigate to Pairing Matrix Edit Page
   Given I am on the home page
   When I click on "Edit Pairing Matrix" page link
   Then I should navigate to the "pairing" page
+
+Scenario: Navigate to Pairing Matrix Edit Page
+  Given I am on the home page
+  Then I should see link to the "Add Employee" page

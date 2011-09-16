@@ -8,6 +8,8 @@ Sample::Application.routes.draw do
   match "change" => "pairing#change", :as => :change
   match "pairing" => "pairing#index", :as => :pairing
   match "save" => "pairing#save", :as=> :save
+  match "add_emp" => "emp#index", :as=> :add_emp
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

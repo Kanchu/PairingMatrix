@@ -12,9 +12,8 @@ Scenario: Able to increase or decrease the value of no of time pairing
   Then I can see the option to increase
   And I can see the option to decrease
 
-  @wip
 Scenario: Option to save and cancel the changes
-  Given I am viewing page showing changes
+  Given I am on the change page
   Then I can see the option to save
   And I can see the option to cancel
 

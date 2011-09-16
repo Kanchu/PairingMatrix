@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c1e7a6-4014-46db-88ab-7a0c7e4910e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/Controllers/pairing_controller_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/add_emp.feature" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/step_definitions/generic_steps.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sample.iml" afterPath="$PROJECT_DIR$/.idea/sample.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pairing_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pairing_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pairing_matrix_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pairing_matrix_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pairing_matrix/pairing_matrix.html.haml" afterPath="$PROJECT_DIR$/app/views/pairing_matrix/pairing_matrix.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Edit_pairing.feature" afterPath="$PROJECT_DIR$/features/Edit_pairing.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/homepage.feature" afterPath="$PROJECT_DIR$/features/homepage.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/edit_pairing_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/edit_pairing_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/Controllers/pairing_matrix_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/Controllers/pairing_matrix_controller_spec.rb" />
     </list>
     <ignored path="sample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,19 +36,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pairing_matrix.html.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/pairing_matrix/pairing_matrix.html.haml">
+      <file leaf-file-name="pairing_matrix_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/pairing_matrix_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="7" selection-start="121" selection-end="121" vertical-scroll-proportion="0.20897833">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pairing_matrix_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/pairing_matrix_controller.rb">
+      <file leaf-file-name="pairing_matrix_controller_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/Controllers/pairing_matrix_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="4" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+            <state line="17" column="68" selection-start="576" selection-end="576" vertical-scroll-proportion="0.41396105">
               <folding />
             </state>
           </provider>
@@ -60,22 +68,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/features/step_definitions/generic_steps.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/pairing_matrix.rb" />
-        <option value="$PROJECT_DIR$/features/pairing_matrix.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/edit_pairing.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/emp_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/pairing/index.html.haml" />
-        <option value="$PROJECT_DIR$/features/step_definitions/edit_pairing_steps.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/pairing_matrix_steps.rb" />
-        <option value="$PROJECT_DIR$/features/Edit_pairing.feature" />
-        <option value="$PROJECT_DIR$/spec/Controllers/pairing_matrix_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/pairing_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pairing/change.html.haml" />
         <option value="$PROJECT_DIR$/app/views/pairing/save.html.haml" />
         <option value="$PROJECT_DIR$/spec/Controllers/pairing_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/pairing_matrix_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pairing_matrix/pairing_matrix.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/pairing_matrix_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/features/homepage.feature" />
+        <option value="$PROJECT_DIR$/app/views/emp/index.html.haml" />
+        <option value="$PROJECT_DIR$/features/step_definitions/edit_pairing_steps.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/generic_steps.rb" />
+        <option value="$PROJECT_DIR$/features/add_emp.feature" />
+        <option value="$PROJECT_DIR$/features/Edit_pairing.feature" />
+        <option value="$PROJECT_DIR$/app/controllers/pairing_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/Controllers/pairing_matrix_controller_spec.rb" />
       </list>
     </option>
   </component>
@@ -105,7 +113,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -211,6 +218,68 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -232,6 +301,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,13 +405,6 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -370,6 +433,13 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda">
@@ -524,14 +594,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-5" width="1290" height="777" extended-state="6" />
-    <editor active="true" />
+    <frame x="8" y="24" width="1280" height="776" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.261563" sideWeight="0.9911374" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26286173" sideWeight="0.9911374" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -588,14 +658,31 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/homepage_step.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="11" column="36" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/emp_controller.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/edit_pairing_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="72" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" />
+        <state line="23" column="23" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/add_emp.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="60" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Edit_pairing.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="37" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pairing_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="58" selection-start="472" selection-end="472" vertical-scroll-proportion="0.18706293">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
@@ -603,79 +690,66 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pairing/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="131" selection-end="131" vertical-scroll-proportion="0.13215859" />
+        <state line="2" column="20" selection-start="79" selection-end="79" vertical-scroll-proportion="0.05050505">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/Edit_pairing.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="416" selection-end="419" vertical-scroll-proportion="0.30837005" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/emp_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/web_steps.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="18" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.3598862" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/pairing_matrix_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.14935988" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/edit_pairing_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="0.5334282" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pairing/change.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="83" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pairing/save.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="50" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
+        <state line="22" column="15" selection-start="336" selection-end="336" vertical-scroll-proportion="0.5555556">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pairing_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/Controllers/pairing_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/Controllers/pairing_matrix_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="55" selection-start="22" selection-end="22" vertical-scroll-proportion="0.024038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pairing_matrix_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="4" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+        <state line="10" column="15" selection-start="90" selection-end="90" vertical-scroll-proportion="0.24350649">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pairing_matrix/pairing_matrix.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="121" selection-end="121" vertical-scroll-proportion="0.20897833">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/emp.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/pair.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="26" selection-start="53" selection-end="53" vertical-scroll-proportion="0.073051944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="60" selection-start="140" selection-end="140" vertical-scroll-proportion="0.024350649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pairing_matrix_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/Controllers/pairing_matrix_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="68" selection-start="576" selection-end="576" vertical-scroll-proportion="0.41396105">
           <folding />
         </state>
       </provider>

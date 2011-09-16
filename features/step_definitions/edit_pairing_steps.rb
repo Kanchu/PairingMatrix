@@ -12,14 +12,15 @@ Then /^I can see the option to decrease$/ do
 end
 
 
-Then /^I can see the option to Save$/ do
+Then /^I can see the option to save$/ do
   page.should have_xpath("//input[@value = 'Save']")
 end
 
-Then /^I can see the option to Cancel$/ do
+Then /^I can see the option to cancel$/ do
   page.should have_xpath("//input[@value = 'Cancel']")
 end
 
 Given /^I am viewing page showing changes$/ do
-  cisit path_to("change")
+  visit path_to("change")
+  #page.should have_content("No of time Pairing")
 end

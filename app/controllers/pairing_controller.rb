@@ -36,8 +36,10 @@ class PairingController < ApplicationController
       @no = @num.no_of_time
       @num.save
 
-        @num = Matrix.find_by_EmpId1_and_EmpId2(@e1,@e2)
-        @no = @num.no_of_time
+      @n = Matrix.find_by_EmpId1_and_EmpId2(@e2,@e1)
+      @n.no_of_time = @no
+      @n.save
+
 
   end
   end
